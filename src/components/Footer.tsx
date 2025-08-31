@@ -6,13 +6,13 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">UH</span>
+                <span className="text-white font-bold text-sm">🚀</span>
               </div>
-              <h3 className="text-xl font-bold">UngHjelp Oslo</h3>
+              <h3 className="text-xl font-bold">ungpåfarta</h3>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
-              Trygg og pålitelig hjelp fra ansvarlige ungdommer i Oslo. 
-              Vi kobler sammen unge hjelpere med familier som trenger støtte.
+              Kul og pålitelig hjelp fra unge helter i Oslo! 
+              Vi kobler sammen gjengen med familier som trenger hjelp. 😄
             </p>
           </div>
 
@@ -84,7 +84,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/80 text-sm">
-            © 2024 UngHjelp Oslo. Alle rettigheter forbeholdt.
+            © 2024 ungpåfarta. Vi eier ingenting, men vi hjelper alle! 🎉
           </p>
         </div>
       </div>

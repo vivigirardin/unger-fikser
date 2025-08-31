@@ -8,36 +8,36 @@ const Hero = () => {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-              Trygg og pålitelig hjelp fra
-              <span className="bg-gradient-primary bg-clip-text text-transparent"> ungdommer i Oslo</span>
+              Kul og pålitelig hjelp fra
+              <span className="bg-gradient-fun bg-clip-text text-transparent animate-pulse"> unge helter i Oslo! 🎉</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Våre ansvarlige ungdommer mellom 14-17 år tilbyr kjærlighetsfullt dyrepass, 
-              eldrebesøk og teknisk hjelp i ditt nabolag. Tilgjengelig etter skolen og i helger.
+              Vi er gjengen på 14-17 år som elsker å hjelpe! Dyrepass, besøk hos eldre og 
+              tech-support - vi fikser det meste etter skolen og i helger! 😄
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Bestill tjeneste nå
+            <Button variant="hero" size="lg" className="text-lg px-8 py-6 hover:scale-105 transition-transform">
+              Bestill hjelp nå! 🚀
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-              Les mer om oss
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 hover:scale-105 transition-transform">
+              Sjekk oss ut! 👀
             </Button>
           </div>
 
           <div className="flex items-center space-x-8 pt-4">
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">50+</div>
-              <div className="text-sm text-muted-foreground">Fornøyde familier</div>
+              <div className="text-2xl font-bold text-primary">50+ 😍</div>
+              <div className="text-sm text-muted-foreground">Glade familier</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">4</div>
-              <div className="text-sm text-muted-foreground">Dekket områder</div>
+              <div className="text-2xl font-bold text-secondary">4 🏃‍♂️</div>
+              <div className="text-sm text-muted-foreground">Kule områder</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">100%</div>
-              <div className="text-sm text-muted-foreground">Trygghet</div>
+              <div className="text-2xl font-bold text-accent">100% ✨</div>
+              <div className="text-sm text-muted-foreground">Trygg gjengen</div>
             </div>
           </div>
         </div>
